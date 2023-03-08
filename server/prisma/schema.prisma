@@ -17,3 +17,18 @@ model User {
   updatedAt DateTime @updatedAt
   username  String   @unique
 }
+
+model Sdf {
+  createdAt   DateTime   @default(now())
+  id          String     @id @default(cuid())
+  sdfsdfsdf   Sdfsdfsdf? @relation(fields: [sdfsdfsdfId], references: [id])
+  sdfsdfsdfId String?
+  updatedAt   DateTime   @updatedAt
+}
+
+model Sdfsdfsdf {
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  sdfs      Sdf[]
+  updatedAt DateTime @updatedAt
+}
