@@ -31,55 +31,31 @@
   },
   {
     "role": "user",
-    "resource": "Task",
-    "action": "read:own",
-    "attributes": "*"
-  },
-  {
-    "role": "todoUser",
-    "resource": "Task",
+    "resource": "Test",
     "action": "read:own",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Task",
-    "action": "create:any",
-    "attributes": "*"
-  },
-  {
-    "role": "todoUser",
-    "resource": "Task",
+    "resource": "Test",
     "action": "create:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Task",
-    "action": "update:any",
-    "attributes": "*"
-  },
-  {
-    "role": "todoUser",
-    "resource": "Task",
+    "resource": "Test",
     "action": "update:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Task",
+    "resource": "Test",
     "action": "delete:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Task",
-    "action": "read:any",
-    "attributes": "*"
-  },
-  {
-    "role": "todoUser",
-    "resource": "Task",
+    "resource": "Test",
     "action": "read:any",
     "attributes": "*"
   }
